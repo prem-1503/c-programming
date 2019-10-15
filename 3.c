@@ -13,7 +13,7 @@ int main()
 	scanf("%s",string1);	//reading the strings into the alloted memories// 
 	scanf("%s",string2);
 
-	int len1 = strlen(string1);
+	int len1 = strlen(string1);//length of strings
 	int len2 = strlen(string2);
 
 	for(int i = 0;i <len1;i++)   // concatanating the strings//
