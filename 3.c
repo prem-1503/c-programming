@@ -1,16 +1,16 @@
 
 #include <stdio.h> // Including standard input output header file
-#include <stdlib.h> 
+#include <stdlib.h> //Including standard library header file
 
 #include <string.h>
 int t=0;
-int merge(long long a[],int b,int m,int c)    //to merge the two arrays
+int merge(long long int a[],int b,int m,int c)    //to merge the two arrays
 {
 	int e,f,g;
 	int llen=m-b+1;        //length of the left array
 	int rlen=c-m;          //length of the right array
-	long long l[llen];
-	long long r[rlen];
+	long long int l[llen];
+	long long int r[rlen];
 	for(e=0;e<llen;e++)     //inserting into the left and right array
 	{
 		l[e]=a[b+e];
