@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>// including stdio.h
 #include <stdlib.h>
 #include <string.h>
 
@@ -6,8 +6,8 @@ int main()
 {
 	char *string1, *string2, *string; //declaring the pointers for dynamic memory allocation//
 
-	string1 = (char*)calloc(255,sizeof(char)); // alloting the size of memory to store the strings//
-	string2 = (char*)calloc(255,sizeof(char));
+	string1 = (char*)malloc(255,sizeof(char)); // alloting the size of memory to store the strings//
+	string2 = (char*)malloc(255,sizeof(char));
 	
 
 	scanf("%s",string1);	//reading the strings into the alloted memories// 
