@@ -1,5 +1,7 @@
+
 #include <stdio.h> // Including standard input output header file
 #include <stdlib.h> 
+
 #include <string.h>
 
 int main()
